@@ -333,3 +333,32 @@ strong {
     font-family: WeblySleekUISemiBold;
     margin: 10px 0 30px;
 }
+ .what_is_kimbi {
+    padding: 70px 0;
+    background-color: #00b2d7;
+    background-image: url(./../Content/images/sis-masis.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .what_is_content {
+     display: flex;
+     flex-direction: row;
+ }
+ .what_is_content img {
+     margin: auto
+ }
+
+ .what_is_kimbi .container h2 {
+    font-family: DejaVuSansBold;
+    font-size: 60px;
+    margin: 0 auto 40px!important;
+    color: #fff;
+ }
+ .what_is_content p {
+    font-family: WeblySleekUISemiLight;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: left;
+ }
