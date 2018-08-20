@@ -5,6 +5,7 @@ import Advantages from './Advantages'
 import HowToApply from './HowToApply'
 import ContinueBtn from './ContinueBtn'
 import MapAddress from './MapAddress'
+import Partners from './Partners'
 
 
 class Home extends Component {
@@ -17,6 +18,7 @@ class Home extends Component {
                 <HowToApply />
                 <ContinueBtn />
                 <MapAddress />
+                <Partners />
                 <Footer />
             </div>
 
