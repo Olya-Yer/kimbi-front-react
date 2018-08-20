@@ -7,6 +7,7 @@ import ContinueBtn from './ContinueBtn'
 import MapAddress from './MapAddress'
 import Partners from './Partners'
 import WhatIsKimbi from './WhatIsKimbi'
+import InfoSection from './InfoSection'
 
 
 class Home extends Component {
@@ -21,6 +22,7 @@ class Home extends Component {
                 <MapAddress />
                 <Partners />
                 <WhatIsKimbi />
+                <InfoSection />
                 <Footer />
             </div>
 
