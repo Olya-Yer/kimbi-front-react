@@ -2,7 +2,24 @@ import React, { Component } from 'react'
 import logo from '../assets/Content/images/kimbi-logo.svg'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../assets/styles/style.css'
+import axios from 'axios';
+
+axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:441';
 class Header extends Component {
+
+    handleLogin() {
+        console.log("hey")
+        this.getHomePage()
+    }
+    getHomePage() {
+
+        axios.get("/api/CommonDetails/GetHomePage")
+            .then(function (response) {
+                console.log(response)
+            }).catch(function (error) {
+                console.log(error);
+            });
+    }
     render() {
         return (
             <Navbar className="transparent header">
@@ -27,7 +44,7 @@ class Header extends Component {
                         <NavItem>
                             Բլոգ
                         </NavItem>
-                        <NavItem className="login-btn">
+                        <NavItem className="login-btn" onClick={() => this.handleLogin()}>
                             Մուտք
                         </NavItem>
                     </Nav>
