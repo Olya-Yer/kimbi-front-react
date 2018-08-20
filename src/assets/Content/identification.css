@@ -1,0 +1,781 @@
+﻿.middle-auth {
+    width: calc((100% - 900px) / 2);
+    height: 550px;
+    text-align: center;
+    float: left;
+}
+
+    .middle-auth p {
+        font-family: WeblySleekUISemiBold;
+        font-size: 20px;
+        padding-top: 275px;
+        margin: 0;
+    }
+
+.authentic-steps {
+    width: 300px;
+    min-width: 270px;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.authentic-steps-header {
+    height: 160px;
+    width: 100%;
+    padding-top: 35px;
+}
+
+    .authentic-steps-header img {
+        margin: auto;
+        display: block;
+    }
+
+.auth-header-one {
+    background-color: #ffd503;
+}
+
+.auth-header-two {
+    background-color: #D80613;
+}
+
+.auth-header-three {
+    background-color: #D8D8D8;
+}
+
+.auth-h2 {
+    font-size: 26px;
+    font-family: "WeblySleekUISemiLight";
+    color: #333333;
+    line-height: 34px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.auth-content {
+    padding: 25px 30px 30px;
+}
+
+
+    .auth-content ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .auth-content li ul {
+        padding-left: 50px;
+    }
+
+    .auth-content ul li {
+        font-size: 14px;
+        font-family: "WeblySleekUISemiLight";
+        color: #333333;
+        margin-bottom: 10px;
+        overflow: hidden;
+        clear: both;
+        line-height: 16px;
+    }
+
+    .auth-content li.auth-small-li {
+        font-size: 12px !important;
+        margin-bottom: 0px;
+        line-height: 14px;
+    }
+
+    .auth-content .icon-cheked_box .path2:before {
+        color: #333333;
+        font-size: 25px;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+
+    .auth-content li.auth-small-li .icon-minus:before,
+    .ekeng-list li .icon-minus:before {
+        font-size: 8px;
+        margin-top: 4px;
+        margin-right: 4px;
+    }
+
+.authentic-steps .test-button {
+    width: 80% !important;
+    margin-top: 45px;
+    position: absolute;
+    /*margin-left: 30px;*/
+    bottom: 30px;
+}
+
+.fixed-height {
+    position: relative !important;
+}
+
+    .fixed-height .auth-content .check-button {
+        position: relative;
+        bottom: 30px;
+        width: 80% !important;
+    }
+
+.auth-content .block-span-right {
+    width: calc(100% - 45px);
+}
+
+.auth-content p {
+    font-family: WeblySleekUISemiLight;
+    font-size: 16px;
+    text-align: center;
+    color: #808080;
+}
+
+.auth-disabled {
+    background-color: #A2A2A2 !important;
+}
+
+.auth-message-style {
+    margin-top: 25px;
+    font-family: WeblySleekUISemiBold !important;
+    margin-bottom: -15px;
+}
+/*ekeng-identification*/
+.ekeng-identification,
+.bank-identification {
+    background-color: #F3C900;
+    padding: 45px 35px;
+    width: calc(100% - 125px);
+    float: left;
+    /*min-height: 805px;*/
+}
+
+.bank-identification {
+    background-color: #fff !important;
+    min-height: 880px !important;
+}
+
+    .bank-identification .ekeng-text {
+        margin-bottom: 50px;
+    }
+
+    .bank-identification input[disabled="disabled"] {
+        background-color: #e4e4e4 !important;
+    }
+
+        .bank-identification input[disabled="disabled"]:hover {
+            cursor: not-allowed;
+        }
+
+    .bank-identification .bank-identific-h2 {
+        margin-bottom: 35px;
+        word-wrap: break-word;
+        color: #333333;
+    }
+
+    .bank-identification .help-div {
+        position: relative;
+    }
+
+.card-icon {
+    right: 53px;
+    position: relative;
+    top: -1px;
+}
+
+.identific-main .col-md-9,
+.identific-main .col-md-3 {
+    padding: 0;
+}
+
+.identific-main .register-h2 {
+    padding-left: 0;
+}
+
+.identific-top-text {
+    padding-bottom: 20px;
+}
+
+    .identific-top-text .col-md-9 div {
+        width: calc(100% - 125px);
+    }
+
+    .identific-top-text .sub-text {
+        font-size: 18px;
+        font-family: "WeblySleekUISemiLight";
+        color: #333333;
+    }
+
+.sub-small-text {
+    font-size: 16px;
+    font-family: "WeblySleekUISemiLight";
+    color: #333333;
+}
+
+.identific-or {
+    width: 125px;
+    float: left;
+}
+
+    .identific-or p {
+        font-family: WeblySleekUISemiBold;
+        font-size: 20px;
+        padding-top: 400px;
+        text-align: center;
+    }
+
+.hide-variant {
+    display: none !important;
+}
+
+.ekeng-h2,
+.ekeng-h3 {
+    font-size: 36px;
+    font-family: "WeblySleekUISemiBold";
+    color: #333333;
+    margin-bottom: 55px;
+    margin-top: 0;
+}
+
+.ekeng-h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.ekeng-text {
+    font-size: 16px;
+    font-family: "WeblySleekUISemiLight";
+    margin-bottom: 0;
+}
+
+.ekeng-list {
+    list-style: none;
+    padding-bottom: 38px;
+    margin: 0;
+}
+
+    .ekeng-list li {
+        clear: both;
+        overflow: hidden;
+    }
+
+.ekeng-num {
+    margin-right: 5px;
+}
+
+.ekeng-one,
+.ekeng-two {
+    background-color: #fff;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.ekeng-two {
+    margin-bottom: 0;
+}
+
+    .ekeng-one .auth-h2,
+    .ekeng-two .auth-h2 {
+        margin-bottom: 0;
+    }
+
+.ekengFailed {
+    width: 100% !important;
+    font-family: WeblySleekUISemiBold;
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+
+.bank-identific-h2 {
+    font-family: WeblySleekUISemilight;
+    font-size: 36px;
+    margin: 0;
+}
+
+.waiting-main {
+    background-color: #fff;
+    padding: 100px 50px 250px;
+    text-align: center;
+}
+
+    .waiting-main img {
+        width: 185px;
+        display: inline;
+    }
+
+    .waiting-main p {
+        font-size: 22px;
+        font-family: "WeblySleekUISemiLight";
+        color: rgb(128, 128, 128);
+        margin-bottom: 0;
+        margin-top: 50px;
+    }
+
+.sms-code-identification .col-md-9 {
+    padding: 0 !important;
+}
+
+.sms-code-identification p {
+    padding-left: 10px;
+}
+
+    .sms-code-identification p.error-message {
+        padding-left: 0;
+    }
+
+.sms-code-identification .main-form-div {
+    margin-top: 55px;
+}
+
+.sms-code {
+    font-size: 20px;
+    font-family: "WeblySleekUISemiBold";
+    color: rgb(0, 150, 218);
+    text-decoration: underline;
+    padding: 10px 0 0 2px;
+    float: left;
+}
+
+.help-div.sms-contract-code a {
+    margin-bottom: 10px;
+}
+
+.help-div.show-pass {
+    position: relative;
+}
+
+a.sms-code.show-hide {
+    position: absolute;
+    top: 20px;
+    right: -100px;
+    color: rgb(51, 51, 51);
+}
+
+.help-div.back-btn {
+    overflow: auto;
+}
+
+.continue-button, .back-button.back-button {
+    margin-top: 0 !important;
+}
+
+    .sms-code:hover {
+        cursor: pointer;
+    }
+
+.doc-upload .bank-identific-h2 {
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.doc-upload .icon-note {
+    font-size: 41px;
+}
+
+.doc-upload .block-span-right,
+.doc-upload ul li {
+    font-family: WeblySleekUISemilight;
+    font-size: 16px;
+    color: #333333;
+    padding-left: 15px;
+}
+
+.doc-upload ul li {
+    padding-left: 0;
+}
+
+.doc-upload-main {
+    padding-top: 35px;
+}
+
+.doc-upload-section {
+    margin-right: 30px;
+    width: calc((100% - 60px) / 3);
+    float: left;
+    height: 360px;
+}
+
+.doc-upload-item {
+    box-shadow: 0 0 20px #A6A6A6;
+    color: #333333;
+    position: relative;
+    text-align: center;
+    height: 320px;
+}
+
+.doc-upload-item-bg {
+    /*background-image: url('images/new-doc-upload.png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.doc-upload-item:hover {
+    cursor: pointer;
+}
+
+.doc-upload-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+    .doc-upload-item img.new-doc-upload {
+        width: 100px;
+        display: inline;
+        margin-top: 100px;
+    }
+
+    .doc-upload-item img.uploading {
+        width: auto;
+        display: inline;
+        margin-top: 155px;
+    }
+
+.upload-image-input {
+    display: none !important;
+}
+
+.doc-upload-section p {
+    font-size: 14px;
+    font-family: "WeblySleekUISemiLight";
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.doc-upload .bank-identification {
+    min-height: 810px;
+}
+
+.doc-upload-help-text {
+    padding: 20px 10px;
+    display: block;
+    font-size: 14px;
+}
+
+.ekeng-identification {
+    min-height: 808px;
+}
+
+.paragraph {
+    color: #333333;
+    text-align: center;
+}
+
+.delete-doc {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background: none;
+    border: 0;
+}
+
+    .delete-doc:focus {
+        outline: 0;
+    }
+
+.check-doc .col-md-9 {
+    padding: 0;
+}
+
+.check-doc button {
+    margin-top: 50px;
+}
+
+.check-doc .register-h2 {
+    padding-left: 0px;
+}
+
+.error-page {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    top: 0;
+}
+
+    .error-page img {
+        float: left;
+        margin-right: 170px;
+    }
+
+.error-content {
+    /*float: left;*/
+}
+
+.error-page h2 {
+    font-family: "WeblySleekUISemiBold";
+    font-size: 270px;
+    color: #231F20;
+    line-height: 200px;
+    margin: 0;
+}
+
+.error-page p {
+    font-size: 48.467px;
+    font-family: "WeblySleekUISemiLight";
+    margin-bottom: 30px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.error-page a {
+    font-size: 26.66px;
+    font-family: "WeblySleekUISemiLight";
+    color: rgb(0, 148, 217);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+    .error-page a:hover,
+    .error-page a:focus {
+        text-decoration: none;
+    }
+
+    .error-page a span {
+        transform: rotate(90deg);
+        display: inline-block;
+        right: 0;
+        background: none;
+        font-size: 21px;
+        top: -4px;
+        color: rgb(0, 148, 217);
+        padding-right: 0;
+        margin-right: -5px;
+    }
+
+.error-page .yellow-line-big {
+    margin: 50px 0 50px 0px !important;
+}
+
+.error-page .col-md-7,
+.error-page .col-md-5 {
+    text-align: center;
+    float: left;
+}
+
+@media(max-width: 1360px) {
+    .doc-upload-section {
+        width: 100%;
+    }
+
+        .doc-upload-section p {
+            padding-bottom: 30px !important;
+        }
+
+            .doc-upload-section p.error-message {
+                text-align: center !important;
+                margin: auto;
+            }
+
+    .doc-upload-item {
+        margin: auto;
+    }
+}
+
+@media(max-width: 1200px) {
+    .authentic-steps {
+        width: 600px;
+        float: none;
+        margin: auto;
+        height: auto !important;
+    }
+
+    .middle-auth {
+        text-align: center;
+        width: 600px;
+        height: auto;
+        float: none;
+        margin: auto;
+    }
+
+        .middle-auth p {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+    .error-page img {
+        width: 300px;
+        margin-right: 50px;
+    }
+
+    .error-page p {
+        font-size: 35px;
+    }
+    .authentic-steps .check-button {
+        position: static;
+            margin: 20px auto !important;
+    float: none;
+    }
+}
+
+@media(max-width: 1200px) and (min-width: 991px) {
+    .ekeng-one .auth-h2,
+    .ekeng-two .auth-h2 {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 991px) {
+    .hide-variant {
+        display: block !important;
+        margin-bottom: 20px;
+    }
+
+    .show-variant {
+        display: none !important;
+    }
+
+    .identific-or,
+    .ekeng-identification,
+    .bank-identification {
+        width: 100%;
+    }
+
+    .bank-identification,
+    .identific-main .ekeng-one, .identific-main .ekeng-two {
+        min-height: initial !important;
+        height: auto !important;
+    }
+
+    .ekeng-one .auth-h2, .ekeng-two .auth-h2 {
+        text-align: center;
+    }
+
+    .identific-or p {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .error-page h2 {
+        font-size: 215px;
+    }
+
+    .error-page img {
+        width: 245px;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 600px) {
+    .identific-main .ekeng-one,
+    .identific-main .ekeng-two {
+        width: 48%;
+        margin-right: 4%;
+        float: left;
+        height: 380px;
+    }
+
+        .identific-main .ekeng-one .auth-h2,
+        .identific-main .ekeng-two .auth-h2 {
+            height: 68px;
+        }
+
+    .identific-main .ekeng-two {
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .identific-top-text .col-md-9 div {
+        width: 100%;
+    }
+
+    .waiting-main {
+        padding: 70px 30px 150px;
+    }
+
+        .waiting-main img {
+            width: 150px;
+        }
+
+    .error-page .col-md-7,
+    .error-page .col-md-5 {
+        float: none;
+        width: 100%;
+    }
+
+        .error-page .col-md-5 img {
+            float: none;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+}
+
+@media(max-width: 660px) {
+    .authentic-steps,
+    .middle-auth {
+        width: 100%;
+    }
+
+    .auth-content {
+        padding: 25px 15px 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    .ekeng-identification, .bank-identification {
+        padding: 20px;
+    }
+
+    .ekeng-list {
+        padding-left: 15px;
+    }
+
+    .ekeng-text .block-span-right {
+        width: calc(100% - 24px);
+    }
+
+    .card-icon {
+        right: 40px;
+        position: absolute;
+        bottom: 16px;
+        width: 27px;
+        top: inherit;
+    }
+
+    .error-page h2 {
+        font-size: 185px;
+    }
+
+    .error-page p {
+        font-size: 30px;
+    }
+
+    .error-page .yellow-line-big {
+        margin: 0px 0 30px 0px !important;
+    }
+
+    .error-page .col-md-5 img {
+        margin-bottom: 30px;
+    }
+
+    .doc-upload-item {
+        width: 100% !important;
+    }
+
+    .doc-upload-main {
+        padding-top: 30px;
+    }
+
+    .identific-or p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 500px) {
+    .ekeng-h2, .ekeng-h3 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 400px) {
+    .sms-code {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .error-page h2 {
+        font-size: 150px;
+    }
+
+    .auth-h2 {
+        font-size: 24px;
+    }
+}
