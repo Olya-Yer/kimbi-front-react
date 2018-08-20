@@ -112,9 +112,42 @@ li {
     background-color: #f2f2f3;
     padding: 60px 0 50px;
 }
+.advantages .heading h2 {
+    font-size: 37px;
+    font-family: "DejaVuSans"!important;
+    color: #333;
+    margin: 0 0 55px 0;
+    display: block;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
 .adv-points {
     display: flex;
     flex-direction: row;
+}
+.adv-points .adv-point {
+    text-align: center;
+    /* width: 30%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5%;
+    padding: 0 20px; */
+}
+.adv-points .adv-point p {
+    font-family: WeblySleekUISemiBold;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+.adv-points .adv-point h2 {
+    font-size: 30px;
+    font-family: DejaVuSansBold;
+    color: #333;
+    margin: 0 0 25px 0;
+}
+.adv-points .adv-point img {
+    margin-bottom: 60px;
+    max-height: 114px;
 }
 
 .money-month {
@@ -161,4 +194,85 @@ li {
 }
 .calculator {
     background-color: #fff;
+}
+
+.how_to_apply {
+    background-color: #ffd503;
+    padding: 25px 0 40px;
+}
+.how-to-apply-content p {
+    margin: 0;
+    font-size: 19px;
+    font-family: WeblySleekUISemibold;
+    padding-left: 30px;
+    color: #333;
+    line-height: 23px;
+}
+.how_to_apply_content{
+    display: flex;
+}
+.how_to_apply_content p strong {
+    color: #c50046;
+}
+strong {
+    font-weight: 700;
+}
+.continue-btn {
+    background-image: url(./../Content/images/man-laptop.jpeg);
+    background-repeat: no-repeat;
+    padding: 260px 0 85px;
+    text-align: center;
+    background-position: 20%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.continue-btn div  button{
+    float: none;
+    background-color: #00b2d7;
+    margin-top: 45px;
+    display: inline-block;
+    width: 315px!important;
+}
+.continue-btn div h2 {
+    font-family: DejaVuSans;
+    color: #fff;
+    text-align: center;
+    font-size: 47.5px;
+    margin: 0;
+    line-height: 55px;
+}
+.continue-btn-general {
+    display: block;
+    padding: 15px 10px;
+    background-color: #00b2d7;
+    font-size: 21px;
+    font-family: DejaVuSans;
+    color: #fff;
+    height: 48px;
+    line-height: 10px;
+    min-width: 145px;
+    width: auto!important;
+    border: transparent!important;
+    margin-bottom: 0;
+    margin-top: 20px;
+    float: left;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+    text-align: center!important;
+    cursor: pointer;
+}
+
+.map_address {
+    background-image: url(./../Content/images/map-address.jpeg);
+    padding: 45px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.map_address h2 {
+    margin: 0 0 12px;
+    color: #333;
+    font-family: DejaVuSans!important;
+    font-size: 39px!important;
 }

@@ -28,8 +28,6 @@ class Advantages extends Component {
                         <h2>Պարզ</h2>
                         <p>Ընտրեք վարկի գումարը և ժամկետը, սեղմեք «Շարունակել» կոճակը</p>
                     </dir>
-                    <dir className="adv-point"></dir>
-                    <dir className="adv-point"></dir>
                 </div>
             </div>
         </div>)
