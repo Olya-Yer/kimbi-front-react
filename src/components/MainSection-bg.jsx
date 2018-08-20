@@ -18,15 +18,15 @@ class MainSectionBg extends Component {
                             <Col className="commertial-points">
                                 <ul>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                 </ul>

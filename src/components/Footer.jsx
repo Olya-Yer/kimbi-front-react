@@ -34,7 +34,7 @@ class Footer extends Component {
                             <p>Youtube</p>
                             <p>GoodCredit</p>
                             <p>Խելամիտ վառկ</p>
-                            <p class="address">
+                            <p className="address">
                                 <a href="https://play.google.com/store/apps/details?id=com.altacode.kimbimobile">
                                     <img alt="play store app" src={google_play_link} /></a>
                             </p>

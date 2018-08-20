@@ -49,23 +49,6 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
-                {/* <ul>
-                        <li>
-                            <a class="animatable">Ինչպես դիմել</a>
-                        </li>
-                        <li>
-                            <a class="animatable">Ինչպես ստանալ</a>
-                        </li>
-                        <li>
-                            <a class="animatable">Ինչ է կիմբին</a>
-                        </li>
-                        <li>
-                            <a href="https://www.kimbi.goodcredit.am/blog/" class="menu-blog">Բլոգ</a>
-                        </li>
-                        <li>
-                            <a class="login main-login" id="kiss-home-login-btn">Մուտք</a>
-                        </li>
-                    </ul> */}
             </Navbar >
         )
     }
