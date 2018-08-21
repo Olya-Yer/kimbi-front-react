@@ -30,6 +30,7 @@ class Header extends Component {
                             <img className="logo" src={logo} alt="կիմբի , օնլայն վարկ" />
                         </a>
                     </Navbar.Brand>
+                    <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight className="header-nav">

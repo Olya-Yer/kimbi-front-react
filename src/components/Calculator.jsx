@@ -56,12 +56,37 @@ class Calculator extends Component {
                     />
                     <div className="slider"></div>
                 </Col>            </div>
-            <div className="loan-details">
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
+            <div className="loan_details">
+                <div className="item">
+                    <h3>Գումար</h3>
+                    <p className="price">30000</p>
+                </div>
+                <div className="item">
+                    <h3>Գումար</h3>
+                    <p className="price">30000</p>
+                </div>
+                <div className="item">
+                    <h3>Գումար</h3>
+                    <p className="price">30000</p>
+                </div>
+                <div className="item">
+                    <h3>Գումար</h3>
+                    <p className="price">30000</p>
+                </div>
+                <div className="item">
+                    <h3>Գումար</h3>
+                    <p className="price">30000</p>
+                </div>
+                <p>*Ամիսը բաղկացած է 30 օրացույցային օրից</p>
+                <button>
+                    Շարունակել
+                </button>
+                <a href="">
+                    Վարկի մարման ժամանակացույց
+                </a>
+                <a href="">
+                    Ուսուցողական թերթիկ
+                </a>
             </div>
 
         </div>)
