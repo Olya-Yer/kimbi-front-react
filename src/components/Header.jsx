@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from '../assets/Content/images/kimbi-logo.svg'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../assets/styles/style.css'
+import '../assets/Content/bootstrap-slider.min.css'
 import axios from 'axios';
 
 axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:441';
@@ -49,23 +50,6 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
-                {/* <ul>
-                        <li>
-                            <a class="animatable">Ինչպես դիմել</a>
-                        </li>
-                        <li>
-                            <a class="animatable">Ինչպես ստանալ</a>
-                        </li>
-                        <li>
-                            <a class="animatable">Ինչ է կիմբին</a>
-                        </li>
-                        <li>
-                            <a href="https://www.kimbi.goodcredit.am/blog/" class="menu-blog">Բլոգ</a>
-                        </li>
-                        <li>
-                            <a class="login main-login" id="kiss-home-login-btn">Մուտք</a>
-                        </li>
-                    </ul> */}
             </Navbar >
         )
     }

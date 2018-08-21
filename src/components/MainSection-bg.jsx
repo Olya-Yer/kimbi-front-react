@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './Header'
 import { Col } from 'react-bootstrap';
 import '../assets/styles/style.css';
+import '../assets/Content/bootstrap-slider.min.css'
 import Calculator from './Calculator'
 class MainSectionBg extends Component {
     render() {
@@ -18,15 +19,15 @@ class MainSectionBg extends Component {
                             <Col className="commertial-points">
                                 <ul>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                     <li>
-                                        <i class="fas fa-check"></i>
+                                        <i className="fas fa-check"></i>
                                         <span>Լրացրեք հայտը օնլայն ցանկացած վայրից և ստացեք գումարը կանխիկ կամ Ձեր բանկային քարտին</span>
                                     </li>
                                 </ul>
