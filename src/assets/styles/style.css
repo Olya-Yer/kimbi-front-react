@@ -45,6 +45,8 @@ li {
 } */
 .mainSectionBg {
     background-image: url(../Content/images/homepage-womanday2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
 
 }
 .mainSectionBg {
