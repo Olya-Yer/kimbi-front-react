@@ -596,6 +596,29 @@ strong {
         flex-direction: column;
         align-items: center;
     }
+    .continue-btn div h2 {
+        font-size: 38px;
+    }
+    .header .container {
+        display: block;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        height: 3px;
+        width: 30px;
+        display: block;
+        background: #fdd301;
+        margin-bottom: 5px;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .header{
+        background-color: rgba(0,0,0,.5)!important;
+        padding: 20px 0px;
+    }
     .container>.navbar-header {
         width: 100%;
     }
@@ -644,6 +667,9 @@ strong {
  @media(max-width:600px) {
      .map_address_content {
          display: none;
+     }
+     .map_address {
+         height: 400px;
      }
      .partners .item img {
          display: none;
