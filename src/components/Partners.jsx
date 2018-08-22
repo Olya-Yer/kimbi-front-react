@@ -11,14 +11,14 @@ class Partners extends Component {
                 <div className="container">
                     <div className="item">
                         <img src={credit_card} alt="pay with bank" />
-                        <div>
+                        <div className="partners_content">
                             <h2>Փոխանցում Ձեր բանկային քարտին</h2>
                             <img src={banks} alt="our partner banks" />
                         </div>
                     </div>
                     <div className="item">
                         <img src={finger_up} alt="our partners" />
-                        <div>
+                        <div className="partners_content">
                             <h2>Կանխիկ` մեր գործընկերների միջոցով</h2>
                             <img src={partners} alt="our partners" />
                         </div>

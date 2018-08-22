@@ -8,6 +8,7 @@ import MapAddress from './MapAddress'
 import Partners from './Partners'
 import WhatIsKimbi from './WhatIsKimbi'
 import InfoSection from './InfoSection'
+import SmallPartMainSection from './SmallPartMainSection'
 
 
 class Home extends Component {
@@ -16,6 +17,7 @@ class Home extends Component {
         return (
             <div>
                 <MainSectionBg />
+                <SmallPartMainSection />
                 <Advantages />
                 <HowToApply />
                 <ContinueBtn />
