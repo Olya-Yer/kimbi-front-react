@@ -7,8 +7,10 @@
     "bootstrap-slider": "^10.2.0",
     "bootstrap3": "^3.3.5",
     "core-js": "^2.5.7",
+    "ip": "^1.1.5",
     "jquery": "^3.3.1",
     "prop-types": "^15.6.2",
+    "qs": "^6.5.2",
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.1",
     "react-bootstrap-slider": "^2.1.5",
@@ -17,7 +19,8 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
-    "resolve-url-loader": "^2.3.0"
+    "resolve-url-loader": "^2.3.0",
+    "universal-cookie": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",

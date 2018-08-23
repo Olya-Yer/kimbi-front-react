@@ -1,6 +1,9 @@
 @font-face {
     font-family: 'goodCreditFonts';
-    src: url('../fonts/goodCreditFonts.woff') format('woff'), url('../fonts/goodCreditFonts.eot') format('embedded-opentype'), /*url('../fonts/goodCreditFonts.svg') format('svg'),*/ url('../fonts/goodCreditFonts.ttf') format('truetype');
+    src: url('../fonts/goodCreditFonts.woff') format('woff'),
+     url('../fonts/goodCreditFonts.eot') format('embedded-opentype'), 
+     /*url('../fonts/goodCreditFonts.svg') format('svg'),*/ 
+     url('../fonts/goodCreditFonts.ttf') format('truetype');
 }
 
 @font-face {
@@ -226,15 +229,17 @@ li {
     color: black;
 }
 .money-month .item .text-section div  {
-    border: 1px solid #cbcbcb;
+    /* border: 1px solid #cbcbcb; */
     display: flex;
     flex-direction: row;
+    width: 40%;
 
 }
 .money-month .item .text-section div div {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    width: 10%;
 
 }
 .money-month .item .text-section div div p {
@@ -684,4 +689,8 @@ strong {
     .how_to_apply_content img {
         margin: auto;
     }
+ }
+
+ .form-control {
+     width: 40%;
  }

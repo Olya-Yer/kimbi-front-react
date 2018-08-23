@@ -20,7 +20,7 @@ class Home extends Component {
                 <SmallPartMainSection />
                 <Advantages />
                 <HowToApply />
-                <ContinueBtn />
+                <ContinueBtn props={this.props} />
                 <MapAddress />
                 <Partners />
                 <WhatIsKimbi />

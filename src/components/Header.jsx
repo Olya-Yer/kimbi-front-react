@@ -4,13 +4,24 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../assets/styles/style.css'
 import '../assets/Content/bootstrap-slider.min.css'
 import axios from 'axios';
+import Login from './Login';
 
-axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:441';
+axios.defaults.baseURL = 'http://localhost:26290/';
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            showLoginModal: false,
+        }
+    }
 
     handleLogin() {
         console.log("hey")
-        this.getHomePage()
+        // this.getHomePage()
+        this.setState({
+            showLoginModal: true,
+        })
+        console.log(this.state)
     }
     getHomePage() {
 
@@ -51,6 +62,7 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar.Collapse>
+                <Login showModal={this.state.showLoginModal} closeModal={this.loginModalClose} pageTexts={this.props.content} />
             </Navbar >
         )
     }
