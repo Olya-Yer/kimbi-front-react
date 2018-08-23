@@ -15,13 +15,13 @@ class Footer extends Component {
                         <div className="separator"></div>
                         <div className="content">
                             <p>
-                                <span> <i class="fas fa-phone"></i></span>
+                                <span> <i className="fas fa-phone"></i></span>
                                 098 58 80 05</p>
                             <p>
-                                <span><i class="far fa-envelope-open"></i></span>
+                                <span><i className="far fa-envelope-open"></i></span>
                                 customersupport@goodcredit.am</p>
                             <p>
-                                <span> <i class="fas fa-map-marker-alt"></i></span>
+                                <span> <i className="fas fa-map-marker-alt"></i></span>
                                 ք․Երևան, Տերյան 105/1 Ցիտադել մասնաճյուղ</p>
                         </div>
                     </div>
