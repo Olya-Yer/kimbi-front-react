@@ -83,8 +83,8 @@ class Login extends Component {
 
     render() {
         return (
-            <Modal show={this.props.showModal} className="login-modal-test">
-                <Modal.Header>
+            <Modal show={this.props.showModal} onHide={this.props.closeModal} className="login-modal-test">
+                <Modal.Header closeButton={true} onHide={this.props.closeModal}>
                     <h2>Մուտք</h2>
                     <h3>Մուտքագրեք Ձեր մուտքանունը և գաղտնաբառը</h3>
                 </Modal.Header>

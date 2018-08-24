@@ -13,6 +13,8 @@ class Header extends Component {
         this.state = {
             showLoginModal: false,
         }
+        this.handleLogin = this.handleLogin.bind(this);
+        this.loginModalClose = this.loginModalClose.bind(this)
     }
 
     handleLogin() {
@@ -22,6 +24,11 @@ class Header extends Component {
             showLoginModal: true,
         })
         console.log(this.state)
+    }
+    loginModalClose() {
+        this.setState({
+            showLoginModal: false,
+        })
     }
     getHomePage() {
 
