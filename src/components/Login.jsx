@@ -56,7 +56,7 @@ class Login extends Component {
         return ip.address()
     };
     login(args) {
-        console.log("---------------calling login ")
+        // console.log("---------------calling login ")
         const body = {
             Login: args.login,
             Password: args.pass,
@@ -65,7 +65,7 @@ class Login extends Component {
             FirstPartyBlackBox: args.firstPartyBlackBox,
             ThirdPartyBlackBox: args.thirdPartyBlackBox
         };
-        console.log(body)
+        // console.log(body)
 
 
         axios.post("api/Security/Login", qs.stringify(body))

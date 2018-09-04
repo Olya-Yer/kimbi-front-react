@@ -6,7 +6,8 @@ import '../assets/Content/bootstrap-slider.min.css'
 import axios from 'axios';
 import Login from './Login';
 
-axios.defaults.baseURL = 'http://localhost:26290/';
+axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:455/';
+// axios.defaults.baseURL = 'http://localhost:26290/';
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -18,12 +19,12 @@ class Header extends Component {
     }
 
     handleLogin() {
-        console.log("hey")
+        // console.log("hey")
         // this.getHomePage()
         this.setState({
             showLoginModal: true,
         })
-        console.log(this.state)
+        // console.log(this.state)
     }
     loginModalClose() {
         this.setState({

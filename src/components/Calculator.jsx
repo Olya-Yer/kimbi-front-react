@@ -76,9 +76,9 @@ class Calculator extends Component {
             };
             loanSchedule.push(obj);
         }
-        console.log(loanSchedule);
-        console.log(loanSchedule[0].payDate)
-        console.log(new Date(loanSchedule[0].payDate))
+        // console.log(loanSchedule);
+        // console.log(loanSchedule[0].payDate)
+        // console.log(new Date(loanSchedule[0].payDate))
         return loanSchedule;
     }
 
