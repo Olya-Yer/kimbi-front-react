@@ -6,8 +6,8 @@ import '../assets/Content/bootstrap-slider.min.css'
 import axios from 'axios';
 import Login from './Login';
 
-axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:455/';
-// axios.defaults.baseURL = 'http://localhost:26290/';
+// axios.defaults.baseURL = 'https://stage-kimbi.am.instigatemobile.com:455/';
+axios.defaults.baseURL = 'http://localhost:56431/';
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -20,10 +20,10 @@ class Header extends Component {
 
     handleLogin() {
         // console.log("hey")
-        // this.getHomePage()
-        this.setState({
-            showLoginModal: true,
-        })
+        this.getHomePage()
+        // this.setState({
+        //     showLoginModal: true,
+        // })
         // console.log(this.state)
     }
     loginModalClose() {
@@ -33,7 +33,16 @@ class Header extends Component {
     }
     getHomePage() {
 
-        axios.get("/api/CommonDetails/GetHomePage")
+        // axios.get("/api/CommonDetails/GetHomePage")
+        //     .then(function (response) {
+        //         console.log(response)
+        //     }).catch(function (error) {
+        //         console.log(error);
+        //     });
+        const body = {
+            id: "1"
+        }
+        axios.post("/api/products/product", body)
             .then(function (response) {
                 console.log(response)
             }).catch(function (error) {
